@@ -36,3 +36,6 @@ With this script, you are able to do the following:
 - Operation
 	- Capslock + c -> Copy
 	- Capslock + v -> Paste
+- Extra Setting for Mac
+	- Capslock + f -> Command+Down
+	- Capslock + r -> Command+Up
