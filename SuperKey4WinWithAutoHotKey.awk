@@ -20,9 +20,9 @@ SetCapslockState, AlwaysOff
     ;; released whenever a keystroke calls for it.
     ;; for example, Send {Ctrl Downtemp} followed later by Send {Left} would produce a normal {Left}
     ;; keystroke, not a Ctrl{Left} keystroke
-    Send {Ctrl DownTemp}{Shift DownTemp}{Alt DownTemp}{LWin DownTemp}
+    Send {Ctrl DownTemp}{Shift DownTemp}{Alt DownTemp}
     KeyWait, Capslock
-    Send {Ctrl Up}{Shift Up}{Alt Up}{LWin Up}
+    Send {Ctrl Up}{Shift Up}{Alt Up}
     if (A_PriorKey = "Capslock") {
         Send {Esc}
     }
